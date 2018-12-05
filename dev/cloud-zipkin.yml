@@ -1,0 +1,16 @@
+server:
+  port: 10031
+
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: localhost:5672
+      username: haier
+      password: Haier
+      queue: zipkin
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
