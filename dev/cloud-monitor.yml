@@ -1,0 +1,13 @@
+server:
+  port: 10021
+
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+spring:
+  security:
+    user:
+      name: cosmo
+      password: Haier2018
