@@ -1,5 +1,5 @@
 server:
-  port: 10022
+  port: 10021
 
 management:
   endpoint:
@@ -9,5 +9,5 @@ management:
 spring:
   security:
     user:
-      name: cosmo
-      password: Haier2018
+      name: damon
+      password: 111111
