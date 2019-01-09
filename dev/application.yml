@@ -55,8 +55,8 @@ spring:
         enabled: true
     rabbitmq:
       queue: zipkin
-    web:
-      skipPattern: (^cleanup.*|.+favicon.*)
+#    web:
+#      skipPattern: (^cleanup.*|.+favicon.*)
   sleuth:
     sampler:
       probability: 1.0
