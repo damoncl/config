@@ -1,46 +1,5 @@
 # 运行可以通过java -jar xxx.jar --spring.profiles.active={}方式去激活不同环境的配置
 spring:
-  #上传限制
-  http:
-    multipart:
-      max-file-size: 10MB
-      max-request-size: 10MB
-  #profiles:
-    #active: prod  #生效的配置文件
-  #数据库配置
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driverClassName: com.mysql.jdbc.Driver
-    druid:
-      initialSize: 5
-      minIdle: 5
-      maxActive: 20
-      maxWait: 60000
-      timeBetweenEvictionRunsMillis: 60000
-      minEvictableIdleTimeMillis: 300000
-      validationQuery: SELECT 1 FROM DUAL
-      testWhileIdle: true
-      testOnBorrow: false
-      testOnReturn: false
-      poolPreparedStatements: true
-      maxPoolPreparedStatementPerConnectionSize: 20
-      removeAbandoned: true
-      removeAbandonedTimeout: 180
-      connectionProperties: clientEncoding=UTF-8
-
-  #邮件配置
-  mail:
-    host: smtp.haier.com
-    username: info@haier.com
-    password: djHJm49453Fdfg
-    port: 25
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-            required: true
   #rabbitmq配置
   rabbitmq:
     host: localhost
@@ -55,25 +14,10 @@ spring:
         enabled: true
     rabbitmq:
       queue: zipkin
-#    web:
-#      skipPattern: (^cleanup.*|.+favicon.*)
   sleuth:
     sampler:
       probability: 1.0
-#注册中心
-#eureka:
-  #client:
-    #serviceUrl:
-          #defaultZone: http://peer1:1111/eureka,http://peer2:1112/eureka/
-  #instance:
-    #app name+随机数 区分同一服务不同的实例
-    #instance-id: ${spring.application.name}:${random.int}
-logging:
-    home: /var/logs/${spring.application.name}
-    name: ${spring.application.name}
-    level:
-        root: info
-        org.springframework: info
+
 #sping boot admin 需要关闭此
 management:
   security:
