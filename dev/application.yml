@@ -59,7 +59,7 @@ spring:
       skipPattern: (^cleanup.*|.+favicon.*)
   sleuth:
     sampler:
-      percentage: 1
+      probability: 1.0
 #注册中心
 #eureka:
   #client:
