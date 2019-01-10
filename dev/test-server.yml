@@ -1,6 +1,9 @@
 server:
   port: 10041
-
+spring:
+  sleuth:
+    sampler:
+      probability: 1.0
 management:
   metrics:
     web:
