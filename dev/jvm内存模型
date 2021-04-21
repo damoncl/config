@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T01:30:09.089Z" agent="5.0 (Windows)" etag="fFLDQTpb4mUyw8w-LjzE" version="14.6.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-21T01:53:48.214Z" agent="5.0 (Windows)" etag="H4ZumRPSaLDg0U861uCe" version="14.6.3" type="github" pages="3">
   <diagram id="IRHalUpQtJrnbT_GssyB" name="内存结构概述">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,10 +126,10 @@
         <mxCell id="HWqy56JUALZo-wzQJI2W-28" value="方法区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="490" y="790" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HWqy56JUALZo-wzQJI2W-29" value="Class Meta-data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#82b366;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="HWqy56JUALZo-wzQJI2W-29" value="&lt;div&gt;Class Meta-data&lt;/div&gt;&lt;div&gt;类元信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#82b366;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="460" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HWqy56JUALZo-wzQJI2W-30" value="Constant Pool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#d6b656;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="HWqy56JUALZo-wzQJI2W-30" value="&lt;div&gt;Constant Pool&lt;/div&gt;&lt;div&gt;运行时常量池&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#d6b656;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="460" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HWqy56JUALZo-wzQJI2W-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
